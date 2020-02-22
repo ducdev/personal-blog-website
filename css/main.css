@@ -1,3 +1,27 @@
 .main {
   grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: var(--space);
+}
+
+.card {
+  border-radius: var(--radius);
+  border: 1px solid var(--dark);
+}
+
+.card-body {
+  padding: var(--space);
+}
+
+.card-img-top {
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+  width: 100%;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
 }
