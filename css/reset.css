@@ -11,7 +11,3 @@ a {
   color: var(--turquoise);
   font-style: italic;
 }
-
-a:hover {
-  text-decoration: underline;
-}

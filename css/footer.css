@@ -1,4 +1,7 @@
 .footer {
   grid-area: footer;
+}
+
+.contact {
   text-align: center;
 }
