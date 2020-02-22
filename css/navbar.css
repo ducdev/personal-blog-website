@@ -1,5 +1,6 @@
 .navbar {
   grid-area: navbar;
+  border-radius: var(--radius);
 }
 
 .header {
@@ -12,6 +13,7 @@
 .sub-header {
   font-size: 18px;
   text-align: center;
+  color: var(--grey);
 }
 
 .link-list {

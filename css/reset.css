@@ -1,7 +1,17 @@
+* {
+  color: var(--black);
+}
+
 body {
   margin: 0;
 }
 
 a {
   text-decoration: none;
+  color: var(--turquoise);
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
 }

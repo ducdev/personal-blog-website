@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   border-radius: var(--radius);
-  background-color: var(--bright);
+  background-color: var(--dark);
   padding: var(--space);
 }
 
