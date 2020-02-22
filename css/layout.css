@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    'navbar navbar'
+    'aside main'
+    'footer footer';
+  grid-template-columns: 25% 75%;
+}
