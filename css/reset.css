@@ -11,3 +11,22 @@ a {
   color: var(--turquoise);
   font-style: italic;
 }
+
+input,
+button {
+  border-radius: var(--radius);
+  outline: none;
+  font-size: 14px;
+  padding: 7px;
+}
+
+input {
+  border: 1px solid var(--dark);
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--turquoise);
+  border: none;
+  color: var(--white);
+}
