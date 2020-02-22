@@ -1,7 +1,9 @@
+@import "reset.css";
 @import "layout.css";
 @import "fonts.css";
 @import "navbar.css";
 @import "main.css";
 @import "aside.css";
 @import "footer.css";
-
+@import "definitions/colors.css";
+@import "definitions/constants.css";

@@ -1,3 +1,19 @@
 .aside {
   grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: var(--radius);
+  background-color: var(--bright);
+  padding: var(--space);
+}
+
+.avatar {
+  max-width: 100px;
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+.introduction {
+  text-align: justify;
 }

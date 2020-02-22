@@ -1,3 +1,27 @@
 .navbar {
   grid-area: navbar;
 }
+
+.header {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 18px;
+}
+
+.sub-header {
+  font-size: 18px;
+  text-align: center;
+}
+
+.link-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-list-item:not(:last-child) {
+  margin-right: var(--space);
+}
