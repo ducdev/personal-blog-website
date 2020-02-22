@@ -13,3 +13,7 @@
   width: 100%;
   border-radius: var(--radius);
 }
+
+.email-input {
+  margin-bottom: var(--space);
+} 

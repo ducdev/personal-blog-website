@@ -1,8 +1,18 @@
 .post-list {
   grid-area: main;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: var(--space);
+  margin-bottom: var(--space);
+}
+
+@media (min-width: 500px) {
+  .post-list {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--space);
+  }
 }
 
 .card {
@@ -26,4 +36,5 @@
 
 .featured-image {
   margin: 0 auto;
+  max-width: 100%;
 }

@@ -1,12 +1,19 @@
 .container {
   padding: var(--space);
   margin: 0 auto;
-  max-width: 1000px;
-  display: grid;
-  grid-template-areas:
-    'navbar navbar'
-    'aside main'
-    'footer footer';
-  grid-template-columns: 30% 70%;
-  grid-gap: var(--space);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: var(--space);
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-areas:
+      'navbar navbar'
+      'aside main'
+      'footer footer';
+    grid-template-columns: 30% calc(70% - 15px);
+    grid-gap: var(--space);
+  }
 }
